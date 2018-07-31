@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "3.2.6",
-    "superagent": "0.14.7",
+    "superagent": "3.8.1",
     "locomotive": "0.3.6",
     "jade": "0.31.2",
     "tracer": "0.5.1",
