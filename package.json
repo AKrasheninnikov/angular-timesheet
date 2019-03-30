@@ -5,8 +5,8 @@
   "description": "Timesheet application for Angular training labs",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.2.6",
-    "superagent": "0.14.7",
+    "express": "4.16.0",
+    "superagent": "3.8.1",
     "locomotive": "0.3.6",
     "jade": "0.31.2",
     "tracer": "0.5.1",
@@ -17,8 +17,9 @@
     "q": "0.9.6",
     "nedb": "0.10.2",
     "connect-nedb-session": "0.0.2",
-    "moment": "2.5.1",
-    "lodash": "4.17.5"
+    "moment": "2.19.3",
+    "lodash": "4.17.11",
+    "snyk": "^1.143.5"
   },
   "devDependencies": {
     "chai": "1.8.1",
@@ -50,5 +51,10 @@
     "sinon": "1.7.3",
     "sinon-chai": "2.4.0",
     "walkdir": "0.0.7"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
