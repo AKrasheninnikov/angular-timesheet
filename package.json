@@ -12,7 +12,7 @@
     "tracer": "0.5.1",
     "passport": "0.1.17",
     "passport-local": "0.1.6",
-    "open": "0.0.4",
+    "open": "6.0.0",
     "request": "2.82.0",
     "q": "0.9.6",
     "nedb": "0.10.2",
