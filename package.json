@@ -18,7 +18,7 @@
     "nedb": "0.10.2",
     "connect-nedb-session": "0.0.2",
     "moment": "2.5.1",
-    "lodash": "4.17.5"
+    "lodash": "4.17.20"
   },
   "devDependencies": {
     "chai": "1.8.1",
