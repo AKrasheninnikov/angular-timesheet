@@ -7,7 +7,7 @@
   "dependencies": {
     "express": "4.16.0",
     "superagent": "3.8.1",
-    "locomotive": "0.3.6",
+    "locomotive": "0.4.0",
     "jade": "0.31.2",
     "tracer": "0.5.1",
     "passport": "0.1.17",
